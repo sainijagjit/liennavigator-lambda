@@ -1,0 +1,17 @@
+{
+  "name": "liennavigator-lambda",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build/deploy LienNavigator job worker (runs backend processJob inside Lambda)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "zip": "node scripts/build-zip.js",
+    "deploy": "node scripts/deploy.js",
+    "deploy:dev": "node scripts/deploy.js dev",
+    "deploy:prod": "node scripts/deploy.js prod",
+    "test": "node --test"
+  }
+}

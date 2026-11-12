@@ -1,0 +1,11 @@
+.env
+.env.dev
+.env.prod
+.env.local
+.env.*.local
+!.env.example
+node_modules/
+.deploy-staging/
+dist/
+.DS_Store
+
